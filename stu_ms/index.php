@@ -53,7 +53,8 @@ if(isset($_POST['submit']))
 	$rollno =$_POST['rollno'];
 	include('dbcon.php');
 	include('function.php');
-
+   
 	showdetails($standard,$rollno);
 }
 ?>
+<h4 align="center">Use std = 1 and rollno = 21 to see information about roll number 21. <a href="login.php">login</a> to inter more student information</h4>
