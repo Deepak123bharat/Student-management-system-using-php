@@ -32,6 +32,7 @@ if(isset($_SESSION['uid']))
 </form>
 
 <h2> <a href="index.php">Go To HomePage</a></h2>
+<h3 align="center" >Use 'Deepak' as username and 'password' as Passowrd</h3>
 
 </body>
 </html>
